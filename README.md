@@ -25,6 +25,7 @@ Whether it's your favorite social media app or your most important banking login
    cd pasupasu
 
 2. **Install requirements**
+   ```sh
    pip install -r requirements.txt
 
 3. **Setup your database**
@@ -48,10 +49,10 @@ Whether it's your favorite social media app or your most important banking login
 5. **Run PasuPasu**🧸
 
 ## Usage 🧩
-- Login: Enter your MySQL database password to access the main interface.
-- Add Password: Enter the application name, login ID, and password, then click "Add".
-- Get Password: Select an application from the dropdown and click "Get" to view the stored login ID and password.
-- List Applications: Click "List" to view all stored applications.
-- Delete Password: Select an application from the dropdown and click "Delete" to remove it.
+- **Login**: Enter your MySQL database password to access the main interface.
+- **Add Password**: Enter the application name, login ID, and password, then click "Add".
+- **Get Password**: Select an application from the dropdown and click "Get" to view the stored login ID and password.
+- **List Applications**: Click "List" to view all stored applications.
+- **Delete Password**: Select an application from the dropdown and click "Delete" to remove it.
 
    
