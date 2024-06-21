@@ -1,34 +1,35 @@
-# PasuPasu: Your Local Password Manager 🐾
+# PasuPasuパスパス: Your Local Password Manager　🐾　君のパスワードマネージャー
 
-Welcome to **PasuPasu**!🐻‍❄️ 
+Welcome to **PasuPasu**!🐻‍❄️ パスパスへようこそ！
 This password manager helps you securely store and manage your passwords with ease. 
 Whether it's your favorite social media app or your most important banking login, PasuPasu has got you covered! 
+パスワードをローカルに保存して、安全と簡単の管理ができます！
 
-## Features ✨
+## Features ✨　機能
 
-- **Secure Storage**: Encrypts your passwords using the powerful Fernet encryption.
-- **Easy Access**: Quickly retrieve your passwords with a simple click.
-- **Organized**: Keep all your applications neatly listed and manage them with ease.
-- **Minimalism**: Enjoy a clean and user-friendly interface.
+- **Secure Storage**   安全ストレージ: Encrypts your passwords using the powerful Fernet encryption.
+- **Easy Access**      簡単にアクセス: Quickly retrieve your passwords with a simple click.
+- **Organized**        アプリで分類:   Keep all your applications neatly listed and manage them with ease.
+- **Minimalism**       きれいなメニュ: Enjoy a clean and user-friendly interface.
 
-## Getting Started 🔑
+## Getting Started 🔑　初めに
 
-### Prerequisites
+### Prerequisites　事前必須
 - Python 3.x
 - MySQL
 
-### Installation
+### Installation　インストール方法
 
-1. **Clone the repository**
+1. **Clone the repository**　レポをクローンする
    ```sh
    git clone https://github.com/yourusername/pasupasu.git
    cd pasupasu
 
-2. **Install requirements**
+2. **Install requirements**　必要なライブラリのインストール
    ```sh
    pip install -r requirements.txt
 
-3. **Setup your database**
+3. **Setup your database**　データベースを作る
   ```sql
   CREATE DATABASE pasuwarudo;
   USE pasuwarudo;
@@ -41,18 +42,18 @@ Whether it's your favorite social media app or your most important banking login
   );
   ```
 
-4. **Generate an encryption key**
+4. **Generate an encryption key**　暗証キー作る
 - Uncomment the generate_and_save_key() line in vault.py
 - Run the vault.py once to generate and save your encryption key
 - Remember to comment the function again
 
-5. **Run PasuPasu**🧸
+5. **Run PasuPasu**🧸　パスパス実行
 
-## Usage 🧩
-- **Login**: Enter your MySQL database password to access the main interface.
-- **Add Password**: Enter the application name, login ID, and password, then click "Add".
-- **Get Password**: Select an application from the dropdown and click "Get" to view the stored login ID and password.
-- **List Applications**: Click "List" to view all stored applications.
-- **Delete Password**: Select an application from the dropdown and click "Delete" to remove it.
+## Usage 🧩　使い方
+- **Login**: Enter your MySQL database password to access the main interface.　データベースの暗証番号でログイン。
+- **Add Password**: Enter the application name, login ID, and password, then click "Add".　アプリのIDと暗証番号を入力して、保存する。
+- **Get Password**: Select an application from the dropdown and click "Get" to view the stored login ID and password.　アプリを選んで、IDと暗証番号を読み取る。
+- **List Applications**: Click "List" to view all stored applications.　すべてのアプリを展示。
+- **Delete Password**: Select an application from the dropdown and click "Delete" to remove it.　パスワード削除。
 
    
