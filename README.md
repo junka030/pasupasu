@@ -1,8 +1,8 @@
 # PasuPasuパスパス: Your Local Password Manager　🐾　君のパスワードマネージャー
 
-Welcome to **PasuPasu**!🐻‍❄️ パスパスへようこそ！
+Welcome to **PasuPasu**!🐻‍❄️ パスパスへようこそ！<br>
 This password manager helps you securely store and manage your passwords with ease. 
-Whether it's your favorite social media app or your most important banking login, PasuPasu has got you covered! 
+Whether it's your favorite social media app or your most important banking login, PasuPasu has got you covered! <br>
 パスワードをローカルに保存して、安全と簡単の管理ができます！
 
 ## Features ✨　機能
@@ -50,10 +50,10 @@ Whether it's your favorite social media app or your most important banking login
 5. **Run PasuPasu**🧸　パスパス実行
 
 ## Usage 🧩　使い方
-- **Login**: Enter your MySQL database password to access the main interface.　データベースの暗証番号でログイン。
-- **Add Password**: Enter the application name, login ID, and password, then click "Add".　アプリのIDと暗証番号を入力して、保存する。
-- **Get Password**: Select an application from the dropdown and click "Get" to view the stored login ID and password.　アプリを選んで、IDと暗証番号を読み取る。
-- **List Applications**: Click "List" to view all stored applications.　すべてのアプリを展示。
-- **Delete Password**: Select an application from the dropdown and click "Delete" to remove it.　パスワード削除。
+- **Login**: Enter your MySQL database password to access the main interface.　<br> データベースの暗証番号でログイン。
+- **Add Password**: Enter the application name, login ID, and password, then click "Add". <br> アプリのIDと暗証番号を入力して、保存する。
+- **Get Password**: Select an application from the dropdown and click "Get" to view the stored login ID and password. <br> アプリを選んで、IDと暗証番号を読み取る。
+- **List Applications**: Click "List" to view all stored applications. <br> すべてのアプリを展示。
+- **Delete Password**: Select an application from the dropdown and click "Delete" to remove it. <br> パスワード削除。
 
    
